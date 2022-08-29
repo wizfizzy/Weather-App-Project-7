@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: #263238; */
+  background: linear-gradient(90deg, #7474bf 10%, #348ac7 90%);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Serif", serif;
+  color: #fff;
+}
+.wrapper {
+  margin: 100px;
+}
+.container {
+  width: 612px;
+  height: 460px;
+  display: block;
+  margin: 0 auto;
+  background-color: #0656A7;
+  border-radius: 25px;
+  padding: 30px 30px 30px 30px;
+  background-image: url("./images/bluesky\ \(612\ ×\ 460\ px\).gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .search-section{
+    height: 60%;
+    width: 100%;
+    padding: 25px 0 0 20px; */
+
+.top-left {
+  height: 60%;
+  width: 50%;
+  padding: 1px 0 0 15px;
+  display: inline-block;
+}
+
+.top-right {
+  height: 60%;
+  width: 50%;
+  float: right;
+  padding: 55px 0 0 0;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+}
+
+.bottom-left {
+  height: 20%;
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 40px 0 0 50px;
+}
+.bottom-right {
+  height: 10%;
+  width: 50%;
+  float: right;
+  padding: 1px 0px 0 30px;
+  margin-top: -35px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#city {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+#day {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 18px;
+}
+
+#date {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+#time {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+#description {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 8px;
+  font-style: italic;
+}
+ul {
+  display: inline;
+  margin-top: 1px;
+}
+.other-details li {
+  list-style: none;
+}
+
+.horizontal-divider {
+  width: 100%;
+  height: 3px;
+  margin-top: -40px;
+  background-color: #263238;
+}
+
+.vertical-divider {
+  width: 3px;
+  position: absolute;
+  height: 167px;
+  background-color: #263238;
+  float: right;
+  display: inline-block;
+  padding: 0;
+}
+
+.other-details {
+  float: left;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -5px;
+}
+
+#temperature {
+  font-size: 60px;
+  font-weight: 600;
+  margin-right: 3px;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  font-size: 20px;
+}
+
+small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  margin-top: -80px;
+}
+
+small a {
+  color: red;
+}
