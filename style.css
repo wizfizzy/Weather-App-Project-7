@@ -68,6 +68,10 @@ h2,
 h3 {
   margin: 0;
   padding: 0;
+  
+}
+h2,
+h3::first-letter {
   text-transform: capitalize;
 }
 
@@ -76,10 +80,10 @@ h3 {
   font-size: 50px;
 }
 
-#day {
-  font-weight: 700;
-  font-size: 25px;
-  margin-top: 18px;
+.day {
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 #date {
