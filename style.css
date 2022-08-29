@@ -16,7 +16,7 @@ body {
   height: 460px;
   display: block;
   margin: 0 auto;
-  background-color: #0656A7;
+  background-color: #0656a7;
   border-radius: 25px;
   padding: 30px 30px 30px 30px;
   background-image: url("./images/bluesky\ \(612\ ×\ 460\ px\).gif");
@@ -68,6 +68,7 @@ h2,
 h3 {
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 
 #city {
@@ -105,6 +106,7 @@ ul {
 }
 .other-details li {
   list-style: none;
+  text-transform: capitalize;
 }
 
 .horizontal-divider {

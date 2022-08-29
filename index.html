@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App Project week 7</title>
   </head>
   <body>
@@ -41,10 +42,10 @@
           </form>
         </div>
         <div class="top-left">
-          <h1 class="city" id="city">New York</h1>
-          <h2 class="day" id="date">Sunday</h2>
-          <h3 class="time" id="time">4:30am</h3>
-          <h3 class="description" id="description">Light rain</h3>
+          <h1 class="city" id="city"></h1>
+          <h2 class="day" id="date"></h2>
+          <h3 class="time" id="time"></h3>
+          <h3 class="description" id="description"></h3>
         </div>
         <div class="top-right">
           <img
@@ -56,16 +57,16 @@
         </div>
         <div class="horizontal-divider"></div>
         <div class="bottom-left d-flex">
-          <span class="temperature" id="temperature">14</span>
+          <span class="temperature" id="temperature"></span>
           <span class="units">°C /<a href="" id="units">&degF</a></span>
         </div>
         <div class="vertical-divider"></div>
         <div class="bottom-right">
           <div class="other-details">
             <ul>
-              <li>Humidity:</li>
-              <li>Wind:Km/h</li>
-              <li>Pressure:</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> Km/h</li>
+              <li>Pressure: <span id="pressure"></span></li>
             </ul>
           </div>
         </div>
