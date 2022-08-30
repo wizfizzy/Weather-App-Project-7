@@ -56,6 +56,18 @@ body {
   margin: 0;
   padding: 40px 0 0 50px;
 }
+
+.bottom-left .active{
+    color: whitesmoke;
+    cursor: default;   
+}
+
+.bottom-left .active:hover{
+    text-decoration: none;
+}
+
+
+
 .bottom-right {
   height: 10%;
   width: 50%;
@@ -149,6 +161,10 @@ ul {
 .units {
   position: relative;
   font-size: 20px;
+}
+
+.units a{
+    text-decoration: none;
 }
 
 small {
